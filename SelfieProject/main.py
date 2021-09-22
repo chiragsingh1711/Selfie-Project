@@ -21,7 +21,7 @@ class MainApp(App):
 
     def take_selfie(self, *args):
         print("Selfie Done")
-        name = "Database/Selfie.png"
+        name = "Selfie.png"
         self.camera_object.export_to_png(name)
 
 if __name__ == '__main__':
